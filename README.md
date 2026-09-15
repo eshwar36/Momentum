@@ -57,7 +57,32 @@ npm run dev
 
 ## 📸 Screenshots
 
-Application screenshots will be added here.
+## 📸 Screenshots
+
+### Dashboard
+
+![Momentum Dashboard](screenshots/dashboard.jpeg)
+
+### Daily Tasks
+
+![Momentum Daily Tasks](screenshots/tasks.jpeg)
+
+### Habits
+
+![Momentum Habits](screenshots/habits.jpeg)
+
+### Health & Wellness
+
+![Momentum Health and Wellness](screenshots/health.jpeg)
+
+### Weekly Insights
+
+![Momentum Weekly Insights](screenshots/insight.jpeg)
+
+### Focus Timer
+
+![Momentum Focus Timer](screenshots/focus%20timer.jpeg)
+
 
 ## 🔮 Future Improvements
 
