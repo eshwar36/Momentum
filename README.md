@@ -1,55 +1,79 @@
-# Momentum
+# Momentum 🚀
 
-Offline Android app for daily tasks, habits, wellness, body recomposition and focus.
-Version 1.2 removes the backup/restore controls. Version 1.1 improves scrolling and
-Android Back navigation. No login, backend, or internet connection is required.
+Momentum is a modern productivity and wellness tracking application designed to help users build better routines, stay consistent, and track their personal growth from one dashboard.
 
-## Folder contents
+## ✨ Features
 
-- src/ and public/: current React app source and assets.
-- android/: native Capacitor Android project.
-- package.json and package-lock.json: dependencies and reproducible install metadata.
-- releases/Momentum-1.2.apk: latest installable personal-test APK (ignored by Git).
-- .private/: signing key and archived old backend/data (ignored by Git; keep private).
+- 📋 Daily task management
+- 🔥 Habit and streak tracking
+- 💧 Water intake tracking
+- ❤️ Health & wellness monitoring
+- 💪 Body recomposition tracking
+- ⏱️ Focus timer
+- 📊 Weekly progress insights
+- 💬 Daily motivational messages
+- 👤 User profile and account section
+- 📱 Responsive interface
+- 📲 Android support using Capacitor
 
-This is the consolidated current project. Dependency caches, build intermediates,
-and downloaded Android/Java toolchains are not copied; they can be recreated.
+## 🛠️ Tech Stack
 
-## Build
+**Frontend**
+- React
+- JavaScript
+- HTML5
+- CSS3
 
-Use Node.js 24, Java 21, Android SDK platform 36, and the included Gradle wrapper.
+**Development**
+- Vite
+- Node.js / npm
+- Git & GitHub
 
-    npm ci
-    npm run build -- --configLoader native
-    node node_modules/@capacitor/cli/bin/capacitor sync android
+**Mobile**
+- Capacitor
+- Android
 
-Set JAVA_HOME and ANDROID_HOME for your installed tools. From android/ run:
+## 🎯 Purpose
 
-    gradlew.bat assembleDebug
+Momentum was created to combine productivity and personal wellness in one application. Instead of using separate apps for tasks, habits, hydration, focus, and fitness progress, Momentum provides a unified dashboard for managing everyday improvement.
 
-To create an update that preserves existing installations, use the same signing
-key. Before building, copy .private/signing/debug.keystore into the debug signing
-location used by your Android tools (usually the Android user directory). Do not
-replace the signing key for an existing installation. Never commit the private key.
-The generated APK is android/app/build/outputs/apk/debug/app-debug.apk.
+## 🚀 Getting Started
 
-## Checks
+Clone the repository:
 
-    npm run lint
-    node --test --test-isolation=none src/data/backNavigation.test.js src/data/deviceModel.test.js
+git clone https://github.com/eshwar36/Momentum.git
 
-Build, signature, navigation logic and device-data tests passed. Touch scrolling
-and Android Back behavior still need confirmation on your physical phone.
+Open the project:
 
-## Install/update
+cd Momentum
 
-Transfer releases/Momentum-1.2.apk to the phone and open it with Files. Install over
-the existing version; do not uninstall or clear storage if you want to retain data.
-Data is stored in the app on the device. Requires Android 7.0 or newer.
+Install dependencies:
 
-## Future GitHub upload
+npm install
 
-No commit or push was performed. Review the files before uploading. The .gitignore
-excludes signing keys, .private, APKs, databases, caches, and local environment files.
-Do not upload the whole folder through GitHub's browser uploader: it does not apply
-.gitignore. Use Git so the private files remain excluded.
+Start the development server:
+
+npm run dev
+
+## 📸 Screenshots
+
+Application screenshots will be added here.
+
+## 🔮 Future Improvements
+
+- User authentication
+- Cloud database synchronization
+- Advanced progress analytics
+- Notifications and reminders
+- Cross-device synchronization
+- Improved mobile experience
+
+## 👨‍💻 Developer
+
+Developed by **Eshwar**
+
+B.Tech Information Technology Student
+
+## ⭐ Support
+
+If you find Momentum useful, consider giving the repository a star.
