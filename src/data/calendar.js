@@ -1,0 +1,1 @@
+export function weekDates(day,previous=false){const date=new Date((day||new Date().toISOString().slice(0,10))+'T12:00:00Z');date.setUTCDate(date.getUTCDate()-(date.getUTCDay()+6)%7-(previous?7:0));return Array.from({length:7},(_,i)=>new Date(date.getTime()+i*86400000).toISOString().slice(0,10))}
