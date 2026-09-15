@@ -1,5 +1,11 @@
 # Momentum 🚀
 
+## 🌐 Live Demo
+
+🚀 **[Launch Momentum](https://momentum-taupe-ten.vercel.app/)**
+
+> A productivity and wellness tracker for building better routines, tracking habits, managing daily tasks, and monitoring personal progress.
+
 Momentum is a modern productivity and wellness tracking application designed to help users build better routines, stay consistent, and track their personal growth from one dashboard.
 
 ## ✨ Features
